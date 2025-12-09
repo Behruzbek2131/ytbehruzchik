@@ -44,7 +44,9 @@ a {
     border-radius: 40px;
   }
 
-
+  .link h2 {
+    font-size: 20px !important;
+  }
 
 }
 
