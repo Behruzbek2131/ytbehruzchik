@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +14,11 @@ body {
   align-items: center;
   background-color: gray;
   color: white;
+  background-image: url("https://i.pinimg.com/originals/8d/22/48/8d22486e7e0fecf740351f88466779b5.jpg");
+  background-size: cover;
 }
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
@@ -23,43 +27,42 @@ a{
   width: 500px;
   height: 600px;
   border-radius: 50px;
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
-  background: linear-gradient(135deg, #e00303, #4b7bc4);
+  /* background: gray; */
   backdrop-filter: blur(10px);
 }
 
-@media (max-width:430px){
-  .yt_behruzchik{
-    width: 430px;
-    height: 100vh;
-    border: none;
-    border-radius: 0;
+@media (max-width:430px) {
+  .yt_behruzchik {
+    width: 330px;
+    height: 700px;
+    border: 3px solid black;
+    border-radius: 40px;
   }
-  
+
+
+
 }
 
-@media (max-width:430px){
-  body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+@media(max-width:430px) {
+  .behruzchik_info h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 20px !important;
+    padding-right: 5px;
   }
 }
 
-.behruzchik{
+.behruzchik {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.linklar{
+.linklar {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -69,11 +72,28 @@ a{
   display: flex;
   align-items: center;
   gap: 20px;
+  border: 2px solid green;
+  border-radius: 100px;
+  background-color: rgb(1, 160, 1);
+  padding: 5px;
+  animation: behruzchik 1s infinite;
+  transition: 0.3s;
 }
 
+.behruzchik_info h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+.behruzchik_info:hover {
+  transform: scale(1.05);
+}
+
+
 .behruzchik_info img {
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   border-radius: 100%;
 }
 
@@ -83,29 +103,33 @@ a{
   gap: 10px;
   border-bottom: 2px solid black;
   padding-bottom: 5px;
+  border: 2px solid green;
+  border-radius: 100px;
+  padding: 5px;
+  transition: 0.3s;
+  background-color: green;
 }
+
+.link:hover {
+  transform: scale(1.05);
+}
+
 .link1 {
   text-align: center;
   border-bottom: 2px solid black;
-  padding-bottom: 5px;
+  border-top: 2px solid #000;
+  padding-block: 5px;
 }
 
-.link1 h2{
+.link1 h2 {
   border: 2px solid black;
   padding: 5px;
   border-radius: 100px;
-  background-color: #4b7bc4;
-}
-.link h2{
-  border: 2px solid black;
-  padding: 5px;
-  border-radius: 100px;
-  background-color: #e00303;
+  background-color: #146aec;
 }
 
 .link img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
-
 }

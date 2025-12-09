@@ -4,10 +4,10 @@ export default function App() {
   return (
     <div className="yt_behruzchik">
       <div className="behruzchik">
-        <div className="behruzchik_info">
+        <a href="https://www.youtube.com/channel/UCBFegGo6RHqeglyreaUGKKg" className="behruzchik_info">
           <img src="/image.png" alt="img" />
           <h2>YT • Behruzchik</h2>
-        </div>
+        </a>
         <div className="linklar">
           <a href="https://t.me/Behruzchik_im" target="_blank" className="link">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Telegram_Messenger.png" alt="tg call" />
