@@ -80,6 +80,19 @@ a {
   padding: 5px;
   animation: behruzchik 1s infinite;
   transition: 0.3s;
+  animation: wwl 2s ease-in-out;
+}
+
+@keyframes wwl{
+  0%{
+    transform: translateY(-400px);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 .behruzchik_info h2 {
@@ -134,6 +147,16 @@ a {
   border-bottom: 2px solid black;
   border-top: 2px solid #000;
   padding-block: 5px;
+  animation: lll 2s ease-out ;
+}
+
+@keyframes lll{
+  0%{
+    transform: scale(0.2);
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 
 .link1 h2 {
